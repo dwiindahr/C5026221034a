@@ -1,0 +1,109 @@
+body{
+    background-color: white;
+    font-family:Inter, sans-serif;
+    font-weight:500;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.dwi-dots{
+    width: 13;
+    height: 13;
+    float: right;
+    margin-right: 15px ;
+    margin-top: 20px;
+}
+.dwi-dotsbutton{
+    background-color: #F0F0F0;
+    padding: 13.5px 13.5px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.dwi-dotsbutton:hover{
+    cursor: pointer;
+    background-color: #D2D2D2;
+    transition-duration: 0.4s;
+}
+@media screen and (min-width:768px) {
+    .dwi-dotsbutton{
+        margin-right: 300px;
+    }
+}
+.dwi-nameprofile{
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.dwi-ventelaname{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 20px;
+}
+.dwi-verified{
+    float:initial; 
+    margin-left: 6px;
+}
+.dwi-keterangan{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(37, 36, 36);
+    font:Segoe UI;
+    font-weight:550;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top:-14px;
+    margin-bottom: 14px;
+}
+.dwi-button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(38, 101, 214);
+    color: white ;
+    font-weight:550;
+    padding: 19px 0px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -2px;
+    line-height: 1.1;
+    cursor: pointer;
+    transition: 0.15s cubic-bezier(0, 0.2, 0.5, 3);
+}
+.dwi-linkt{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+.dwi-button:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+@media screen and (min-width:768px) {
+    .dwi-button{
+        max-width: 690px;
+        float:none;
+        width: 100%;
+        margin: auto;
+    }
+}
