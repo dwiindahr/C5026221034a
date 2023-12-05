@@ -34,7 +34,7 @@
         <div class="form-group row">
             <label class="control-label col-sm-1" >Umur</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="umur" name="umur">
+              <input type="number" class="form-control" id="umur" name="umur">
             </div>
         </div>
 

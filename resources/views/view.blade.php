@@ -47,7 +47,7 @@
                     <div class="form-group row">
                         <label class="control-label col-sm-1" >Umur</label>
                         <div class="col-sm-10">
-                            <output type="text" id="umur" name="umur" required="required">
+                            <output type="number" id="umur" name="umur" required="required">
                                 : {{ $p->pegawai_umur }}
                             </output>
                         </div>
