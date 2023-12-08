@@ -97,6 +97,7 @@ Route::get('/blog/kontak', function () {
 });
 
 //route CRUD
+//pegawai
 Route::get('/pegawai','App\Http\Controllers\PegawaiController@index');
 Route::get('/pegawai/tambah','App\Http\Controllers\PegawaiController@tambah');
 Route::post('/pegawai/store','App\Http\Controllers\PegawaiController@store');
@@ -107,7 +108,19 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 
+//keranjangbelanja
 Route::get('/keranjangbelanja', 'App\Http\Controllers\KeranjangController@index2');
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@tambah2');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store2');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
+
+//lispstick
+Route::get('/lipstick','App\Http\Controllers\LipstickController@index3');
+Route::get('/lipstick/tambah3','App\Http\Controllers\LipstickController@tambah3');
+Route::post('/lipstick/store3','App\Http\Controllers\LipstickController@store3');
+Route::get('/lipstick/edit3/{id}','App\Http\Controllers\LipstickController@edit3');
+Route::post('/lipstick/update3','App\Http\Controllers\LipstickController@update3');
+Route::get('/lipstick/hapus3/{id}','App\Http\Controllers\LipstickController@hapus3');
+
+Route::get('/lipstick/cari3','App\Http\Controllers\LipstickController@cari3');
+Route::get('/lipstick/view3/{id}','App\Http\Controllers\LipstickController@view3');
