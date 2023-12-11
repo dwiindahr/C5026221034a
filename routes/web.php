@@ -106,7 +106,7 @@ Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
 
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
-Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
+Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view1');
 
 //keranjangbelanja
 Route::get('/keranjangbelanja', 'App\Http\Controllers\KeranjangController@index2');
@@ -124,3 +124,6 @@ Route::get('/lipstick/hapus3/{id}','App\Http\Controllers\LipstickController@hapu
 
 Route::get('/lipstick/cari3','App\Http\Controllers\LipstickController@cari3');
 Route::get('/lipstick/view3/{id}','App\Http\Controllers\LipstickController@view3');
+
+//CHAT
+Route::get('/chat','App\Http\Controllers\ChatController@view');
