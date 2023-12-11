@@ -9,15 +9,10 @@
 	<br/>
 	<br/>
 
-	<table class="table table-striped table-hover">
-		<tr>
-			<th>pesan</th>
-		</tr>
-		@foreach($chat as $c)
-		<tr>
-			<td>{{ $c->pesan }}</td>
-		</tr>
-		@endforeach
-	</table>
+	<div>
+        @foreach($chats as $chat)
+        <p>{!! $chat->pesan !!}</p>
+    @endforeach
+    </div>
 
 @endsection

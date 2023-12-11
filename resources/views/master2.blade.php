@@ -17,7 +17,7 @@
         <!-- Links -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="/chat">CHAT</a>
+            <a class="nav-link" href="/chat/view">CHAT</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Link 2</a>
@@ -29,7 +29,7 @@
               DATABASE
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="/chat">CHAT</a>
+              <a class="dropdown-item" href="/chat/view">CHAT</a>
               <a class="dropdown-item" href="/pegawai">Pegawai</a>
               <a class="dropdown-item" href="/keranjangbelanja">Keranjang Belanja</a>
               <a class="dropdown-item" href="/lipstick">Lipstick</a>

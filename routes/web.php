@@ -126,4 +126,4 @@ Route::get('/lipstick/cari3','App\Http\Controllers\LipstickController@cari3');
 Route::get('/lipstick/view3/{id}','App\Http\Controllers\LipstickController@view3');
 
 //CHAT
-Route::get('/chat','App\Http\Controllers\ChatController@view');
+Route::get('/chat/view','App\Http\Controllers\ChatController@view');
